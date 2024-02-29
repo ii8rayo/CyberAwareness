@@ -1,0 +1,79 @@
+body {
+    background-image: radial-gradient(circle at center center, transparent, rgb(33,33,33)),
+    repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 2px, transparent 2px, transparent 10px, rgb(33,33,33) 10px, rgb(33,33,33) 11px, transparent 11px, transparent 21px),
+    repeating-linear-gradient(45deg, rgb(47,47,47) 0px, rgb(47,47,47) 4px, transparent 4px, transparent 8px),
+    linear-gradient(90deg, rgb(33,33,33), rgb(33,33,33));
+}
+
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around content */
+}
+
+header h1 {
+    margin-bottom: 10px; /* Add some space below the heading */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add some space between list items */
+}
+
+nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
